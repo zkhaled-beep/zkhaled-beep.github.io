@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zay's Book Journal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo"></div>
+    <div>
+      <h1>Zay's Book Journal</h1>
+      <p>Book Reviews & Reading Journey</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Reviews</a>
+    <a href="#">TBR</a>
+    <a href="#">About</a>
+  </nav>
+
+  <main class="container">
+    <aside class="card">Image / Featured Book</aside>
+
+    <section class="card highlight">
+      <h2>Highlighted Review</h2>
+      <p>XYZ EXAMPLE REVIEW.
+        author, title, brief thoughts, rating, etc.
+      </p>
+    </section>
+
+    <aside class="card">My Next Read</aside>
+  </main>
+</body>
+</html>
