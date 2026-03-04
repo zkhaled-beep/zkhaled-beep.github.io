@@ -14,14 +14,6 @@ header {
   background: white;
 }
 
-.logo {
-  width: 60px;
-  height: 60px;
-  background: #26240a;
-  border-radius: 50%;
-  margin-right: 15px;
-}
-
 
 nav {
   background: #3c367a;
@@ -57,6 +49,141 @@ nav a:hover {
   border: 2px solid #26240a;
 }
 
+.reviews {
+  max-width: 1000px;     
+  margin: 40px auto;      
+  padding: 0 20px;
+  
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  justify-content: center; 
+}
+
+.review-card {
+  background: white;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
 
 
+.review-card img {
+  width: 120px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin: 0 auto 10px;
+  display: block;
+}
 
+.book-title {
+  font-size: 18px;
+  margin: 12px 0 5px;
+  color: #26240a;
+}
+
+.author {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #3c367a;
+}
+
+.stars {
+  color: #26240a;
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+
+.tbr-container {
+  max-width: 1000px;
+  margin: 20px auto 40px;
+  padding: 0 20px;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+}
+
+.tbr-card {
+  background: white;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.book-title {
+  font-size: 16px;
+  margin: 12px 0 5px;
+  color: #26240a;
+}
+
+.author {
+  font-size: 14px;
+  color: #3c367a;
+}
+
+footer {
+  background: white;
+  padding: 15px;
+  font-size: 12px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 60px 10%;
+    flex-wrap: wrap;
+}
+
+.about-image img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%; 
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.about-text {
+    max-width: 500px;
+}
+
+.about-text h2 {
+    margin-bottom: 15px;
+}
+
+.about-text p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+/* NAVBAR */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;  /* pushes left & right apart */
+    align-items: center;
+    background-color: #4b4386; /* keep your purple */
+    padding: 15px 40px;
+}
+
+.nav-left a,
+.nav-right a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 30px;
+}
+
+.nav-right a {
+    margin-right: 0;
+}
+
+.nav-left a:hover,
+.nav-right a:hover {
+    opacity: 0.8;
+}
